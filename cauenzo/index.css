@@ -1,0 +1,198 @@
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #070B16;
+            color: #F2F1FF;
+            font-family: Arial, sans-serif;
+        }
+
+        /* CABEÇALHO */
+        header {
+            height: 75px;
+            display: flex;
+            align-items: center;
+            padding: 0 40px;
+            border-bottom: 1px solid #25245c;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+            margin-right: 70px;
+        }
+
+        .logo span {
+            color: #A82CFF;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 18px;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+            color: #A82CFF;
+        }
+
+        .pesquisa {
+            margin-left: auto;
+            background: #0D1221;
+            border: 1px solid #4932a8;
+            border-radius: 20px;
+            padding: 10px 20px;
+            color: white;
+        }
+
+        /* CONTEÚDO PRINCIPAL */
+        main {
+            padding: 30px 40px;
+        }
+
+        /* BANNER */
+        .banner {
+            height: 240px;
+            border: 2px solid #4932a8;
+            border-radius: 8px;
+            padding: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: linear-gradient(90deg, #11182c, #24134c);
+            margin-bottom: 70px;
+        }
+
+        .banner h1 {
+            font-size: 35px;
+            color: #A82CFF;
+            margin-bottom: 10px;
+        }
+
+        .banner p {
+            font-size: 18px;
+        }
+
+        .botao {
+            background: #6E20FF;
+            color: white;
+            border: none;
+            padding: 14px 30px;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .botao:hover {
+            background: #A82CFF;
+        }
+
+        /* TÍTULOS */
+        h2 {
+            margin-bottom: 18px;
+        }
+
+        /* JOGOS */
+        .jogos {
+            display: flex;
+            gap: 18px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: #0D1221;
+            border: 1px solid #30256e;
+            border-radius: 8px;
+            width: 180px;
+            padding: 10px;
+        }
+
+        .card img {
+            width: 100%;
+            height: 210px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .card h3 {
+            font-size: 15px;
+            margin: 10px 0;
+        }
+
+        .preco {
+            color: #32E875;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .comprar {
+            width: 100%;
+            padding: 9px;
+            border: none;
+            border-radius: 5px;
+            background: #6E20FF;
+            color: white;
+            cursor: pointer;
+        }
+
+        .comprar:hover {
+            background: #A82CFF;
+        }
+
+        footer {
+    background: #070B16;
+    border-top: 2px solid #A82CFF;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+footer h2 {
+    color: white;
+}
+
+footer h2 span {
+    color: #A82CFF;
+}
+
+footer p {
+    color: #aaa;
+}
+
+footer h3 {
+    color: white;
+    margin-top: 20px;
+}
+
+footer a {
+    display: block;
+    color: #aaa;
+    text-decoration: none;
+    margin: 8px 0;
+}
+
+footer a:hover {
+    color: #A82CFF;
+}
+
+footer input {
+    background: #0D1221;
+    border: 1px solid #A82CFF;
+    padding: 10px;
+    color: white;
+}
+
+footer button {
+    background: #A82CFF;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+footer hr {
+    border-color: #38206f;
+    margin-top: 25px;
+}
